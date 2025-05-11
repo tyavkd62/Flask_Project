@@ -71,3 +71,20 @@ def hello_name(name):
 @app.route('/hello')
 def hello_world():
     return render_template('hello.html')
+
+
+@app.route('/fruits')
+def show_fruits():
+    # 여기에 테스트할 과일 목록을 넣습니다.
+    fruits = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']
+    return render_template('fruits_list.html', fruits=fruits)
+
+
+@app.route('/messages')
+def show_messages():
+    return render_template('messages.html')
+
+
+@app.route('/about')
+def about_page():
+    return render_template('about.html')
