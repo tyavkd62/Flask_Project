@@ -26,7 +26,7 @@ def json_example():
 '''
 상태 코드와 헤더 설정
 '''
-from flask import Flask, make_response
+from flask import Flask, make_response, render_template
 
 app = Flask(__name__)
 
@@ -61,3 +61,13 @@ def custom_response():
     response = make_response('Custom Response', 202)
     response.headers['X-Example'] = 'CustomHeader'
     return response
+
+
+@app.route('/hello/<name>')
+def hello_name(name):
+    return render_template('hello.html', name=name)
+
+
+@app.route('/hello')
+def hello_world():
+    return render_template('hello.html')
