@@ -26,9 +26,16 @@ def json_example():
 '''
 상태 코드와 헤더 설정
 '''
-from flask import Flask, make_response, render_template
+from flask import Flask, make_response, render_template, Response, \
+    send_from_directory
 
-app = Flask(__name__)
+# app = Flask(__name__)
+app = Flask(__name__, static_url_path='/img', static_folder='static/img')
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
 
 @app.route('/response')
 def response_example():
@@ -88,3 +95,13 @@ def show_messages():
 @app.route('/about')
 def about_page():
     return render_template('about.html')
+
+
+@app.route('/image')
+def get_image():
+    return send_from_directory(app.static_folder, 'MobileNetV3.jpg')
+
+
+@app.route('/img/<path:filename>')
+def custom_static(filename):
+    return send_from_directory('static/img', filename)
