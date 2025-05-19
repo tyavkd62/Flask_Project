@@ -1,0 +1,590 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 923-241-735
+DEBUG:fsevents:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py", inode=90125628, flags=11400, id=822978973): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 923-241-735
+DEBUG:fsevents:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py", inode=90125628, flags=11400, id=822982867): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py', reloading
+2025-05-19 20:42:34,639:WARNING: * Debugger is active!
+2025-05-19 20:42:34,644:INFO: * Debugger PIN: 923-241-735
+2025-05-19 20:44:10,445:DEBUG:Debug level log
+2025-05-19 20:44:10,445:INFO:Info level log
+2025-05-19 20:44:10,445:WARNING:Warning level log
+2025-05-19 20:44:10,446:ERROR:Error level log
+2025-05-19 20:44:10,446:CRITICAL:Critical level log
+2025-05-19 20:44:10,446:INFO:127.0.0.1 - - [19/May/2025 20:44:10] "GET / HTTP/1.1" 200 -
+2025-05-19 20:45:00,348:DEBUG:Debug level log
+2025-05-19 20:45:00,348:INFO:Info level log
+2025-05-19 20:45:00,348:WARNING:Warning level log
+2025-05-19 20:45:00,349:ERROR:Error level log
+2025-05-19 20:45:00,349:CRITICAL:Critical level log
+2025-05-19 20:45:00,349:INFO:127.0.0.1 - - [19/May/2025 20:45:00] "GET / HTTP/1.1" 200 -
+2025-05-19 20:45:03,031:DEBUG:Debug level log
+2025-05-19 20:45:03,031:INFO:Info level log
+2025-05-19 20:45:03,031:WARNING:Warning level log
+2025-05-19 20:45:03,031:ERROR:Error level log
+2025-05-19 20:45:03,032:CRITICAL:Critical level log
+2025-05-19 20:45:03,032:INFO:127.0.0.1 - - [19/May/2025 20:45:03] "GET / HTTP/1.1" 200 -
+2025-05-19 20:48:13,223:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy", inode=91026652, flags=20100, id=823002799): is_created, is_directory
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__init__.py", inode=91026653, flags=11100, id=823002805): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/cli.py", inode=91026654, flags=11100, id=823002811): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/extension.py", inode=91026655, flags=11100, id=823002817): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/model.py", inode=91026656, flags=11100, id=823002823): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/pagination.py", inode=91026657, flags=11100, id=823002829): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/py.typed", inode=91026658, flags=10100, id=823002832): is_created, is_file
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/query.py", inode=91026659, flags=11100, id=823002838): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/record_queries.py", inode=91026660, flags=11100, id=823002844): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/session.py", inode=91026661, flags=11100, id=823002850): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/table.py", inode=91026662, flags=11100, id=823002856): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/track_modifications.py", inode=91026663, flags=11100, id=823002862): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info", inode=91026664, flags=20100, id=823002865): is_created, is_directory
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/LICENSE.rst", inode=91026665, flags=11100, id=823002871): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/WHEEL", inode=91026666, flags=11100, id=823002877): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/METADATA", inode=91026667, flags=11100, id=823002883): is_created, is_file, is_modified
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__", inode=91026669, flags=20100, id=823002892): is_created, is_directory
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-311.pyc.4355875472", inode=91026670, flags=11900, id=823002901): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-311.pyc", inode=91026670, flags=10800, id=823002902): is_file, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-311.pyc.4356502512", inode=91026671, flags=11900, id=823002911): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-311.pyc", inode=91026671, flags=10800, id=823002912): is_file, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-311.pyc.4355875472", inode=91026672, flags=11900, id=823002921): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-311.pyc", inode=91026672, flags=10800, id=823002922): is_file, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/model.cpython-311.pyc.4356502512", inode=91026673, flags=11900, id=823002931): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/model.cpython-311.pyc", inode=91026673, flags=10800, id=823002932): is_file, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-311.pyc.4355875472", inode=91026674, flags=11900, id=823002941): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-311.pyc", inode=91026674, flags=10800, id=823002942): is_file, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/query.cpython-311.pyc.4356502512", inode=91026675, flags=11900, id=823002951): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/query.cpython-311.pyc", inode=91026675, flags=10800, id=823002952): is_file, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-311.pyc.4355875472", inode=91026676, flags=11900, id=823002961): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-311.pyc", inode=91026676, flags=10800, id=823002962): is_file, is_renamed
+2025-05-19 20:48:13,224:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/session.cpython-311.pyc.4355876592", inode=91026677, flags=11900, id=823002971): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,224:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,225:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages', is_directory=True>
+2025-05-19 20:48:13,225:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__init__.py', is_directory=False>
+2025-05-19 20:48:13,225:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,225:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__init__.py', reloading
+2025-05-19 20:48:13,225:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__init__.py', is_directory=False>
+2025-05-19 20:48:13,225:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__init__.py', reloading
+2025-05-19 20:48:13,225:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/cli.py', is_directory=False>
+2025-05-19 20:48:13,225:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,226:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/cli.py', reloading
+2025-05-19 20:48:13,226:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/cli.py', is_directory=False>
+2025-05-19 20:48:13,226:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/cli.py', reloading
+2025-05-19 20:48:13,226:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/extension.py', is_directory=False>
+2025-05-19 20:48:13,226:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,226:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/extension.py', reloading
+2025-05-19 20:48:13,226:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/extension.py', is_directory=False>
+2025-05-19 20:48:13,226:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/extension.py', reloading
+2025-05-19 20:48:13,226:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/model.py', is_directory=False>
+2025-05-19 20:48:13,226:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,226:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/model.py', is_directory=False>
+2025-05-19 20:48:13,226:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/model.py', reloading
+2025-05-19 20:48:13,226:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/pagination.py', is_directory=False>
+2025-05-19 20:48:13,226:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/model.py', reloading
+2025-05-19 20:48:13,226:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/pagination.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/pagination.py', is_directory=False>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/pagination.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/py.typed', is_directory=False>
+2025-05-19 20:48:13,227:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/query.py', is_directory=False>
+2025-05-19 20:48:13,227:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/query.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/query.py', is_directory=False>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/query.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/record_queries.py', is_directory=False>
+2025-05-19 20:48:13,227:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/record_queries.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/record_queries.py', is_directory=False>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/record_queries.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/session.py', is_directory=False>
+2025-05-19 20:48:13,227:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/session.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/session.py', is_directory=False>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/session.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/table.py', is_directory=False>
+2025-05-19 20:48:13,227:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/table.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/table.py', is_directory=False>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/table.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/track_modifications.py', is_directory=False>
+2025-05-19 20:48:13,227:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,227:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/track_modifications.py', reloading
+2025-05-19 20:48:13,227:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/track_modifications.py', is_directory=False>
+2025-05-19 20:48:13,228:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/track_modifications.py', reloading
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/LICENSE.rst', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/LICENSE.rst', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/WHEEL', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/WHEEL', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/METADATA', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/METADATA', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,228:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,228:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-311.pyc", inode=91026670, flags=10800, id=823002902)
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-311.pyc.4355875472', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/__init__.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-311.pyc.4356502512', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-311.pyc.4356502512', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-311.pyc", inode=91026671, flags=10800, id=823002912)
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-311.pyc.4356502512', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/cli.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-311.pyc", inode=91026672, flags=10800, id=823002922)
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-311.pyc.4355875472', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/extension.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/model.cpython-311.pyc.4356502512', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/model.cpython-311.pyc.4356502512', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/model.cpython-311.pyc", inode=91026673, flags=10800, id=823002932)
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/model.cpython-311.pyc.4356502512', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/model.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-311.pyc", inode=91026674, flags=10800, id=823002942)
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-311.pyc.4355875472', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/pagination.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/query.cpython-311.pyc.4356502512', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,229:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/query.cpython-311.pyc.4356502512', is_directory=False>
+2025-05-19 20:48:13,229:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/query.cpython-311.pyc", inode=91026675, flags=10800, id=823002952)
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/query.cpython-311.pyc.4356502512', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/query.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-311.pyc.4355875472', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-311.pyc", inode=91026676, flags=10800, id=823002962)
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-311.pyc.4355875472', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/record_queries.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/session.cpython-311.pyc.4355876592', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/session.cpython-311.pyc.4355876592', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileDeletedEvent: event_type=deleted, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/session.cpython-311.pyc.4355876592', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/session.cpython-311.pyc", inode=91026677, flags=10800, id=823002972): is_file, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/table.cpython-311.pyc.4356499488", inode=91026678, flags=11900, id=823002981): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/table.cpython-311.pyc", inode=91026678, flags=10800, id=823002982): is_file, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-311.pyc.4355876592", inode=91026679, flags=11900, id=823002991): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-311.pyc", inode=91026679, flags=10800, id=823002992): is_file, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/INSTALLERu0kyc8bo.tmp", inode=91026680, flags=15900, id=823003004): is_coalesced, is_created, is_file, is_modified, is_owner_change, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/INSTALLER", inode=91026680, flags=10800, id=823003005): is_file, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/REQUESTED", inode=91026681, flags=10100, id=823003008): is_created, is_file
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORDfqpr4i3k.tmp", inode=91026682, flags=15900, id=823003020): is_coalesced, is_created, is_file, is_modified, is_owner_change, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORD", inode=91026682, flags=10800, id=823003021): is_file, is_renamed
+2025-05-19 20:48:13,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORD", inode=91026668, flags=11900, id=823003022): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/session.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/table.cpython-311.pyc.4356499488', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/table.cpython-311.pyc.4356499488', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/table.cpython-311.pyc", inode=91026678, flags=10800, id=823002982)
+2025-05-19 20:48:13,230:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/table.cpython-311.pyc.4356499488', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/table.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-311.pyc.4355876592', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-311.pyc.4355876592', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-311.pyc", inode=91026679, flags=10800, id=823002992)
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-311.pyc.4355876592', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__/track_modifications.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy/__pycache__', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/INSTALLERu0kyc8bo.tmp', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/INSTALLERu0kyc8bo.tmp', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/INSTALLER", inode=91026680, flags=10800, id=823003005)
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/INSTALLERu0kyc8bo.tmp', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/INSTALLER', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/REQUESTED', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORDfqpr4i3k.tmp', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORDfqpr4i3k.tmp', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORD", inode=91026682, flags=10800, id=823003021)
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORDfqpr4i3k.tmp', dest_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <FileDeletedEvent: event_type=deleted, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:13,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/flask_sqlalchemy-3.1.1.dist-info', is_directory=True>
+2025-05-19 20:48:14,466:WARNING: * Debugger is active!
+2025-05-19 20:48:14,471:INFO: * Debugger PIN: 923-241-735
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql", inode=91026725, flags=20100, id=823003397): is_created, is_directory
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__init__.py", inode=91026726, flags=11100, id=823003403): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/_auth.py", inode=91026727, flags=11100, id=823003409): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/charset.py", inode=91026728, flags=11100, id=823003415): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/connections.py", inode=91026729, flags=11100, id=823003421): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/converters.py", inode=91026730, flags=11100, id=823003427): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/cursors.py", inode=91026731, flags=11100, id=823003433): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/err.py", inode=91026732, flags=11100, id=823003439): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/optionfile.py", inode=91026733, flags=11100, id=823003445): is_created, is_file, is_modified
+2025-05-19 20:48:23,230:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages', is_directory=True>
+2025-05-19 20:48:23,230:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__init__.py', is_directory=False>
+2025-05-19 20:48:23,230:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/__init__.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__init__.py', is_directory=False>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/__init__.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/_auth.py', is_directory=False>
+2025-05-19 20:48:23,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/_auth.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/_auth.py', is_directory=False>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/_auth.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/charset.py', is_directory=False>
+2025-05-19 20:48:23,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/charset.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/charset.py', is_directory=False>
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/connections.py', is_directory=False>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/charset.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/connections.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/connections.py', is_directory=False>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/connections.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/converters.py', is_directory=False>
+2025-05-19 20:48:23,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/converters.py', is_directory=False>
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/cursors.py', is_directory=False>
+2025-05-19 20:48:23,231:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/converters.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/cursors.py', is_directory=False>
+2025-05-19 20:48:23,231:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/converters.py', reloading
+2025-05-19 20:48:23,231:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/err.py', is_directory=False>
+2025-05-19 20:48:23,232:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/cursors.py', reloading
+2025-05-19 20:48:23,232:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,232:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/cursors.py', reloading
+2025-05-19 20:48:23,232:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/err.py', is_directory=False>
+2025-05-19 20:48:23,232:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/err.py', reloading
+2025-05-19 20:48:23,232:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/optionfile.py', is_directory=False>
+2025-05-19 20:48:23,232:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/err.py', reloading
+2025-05-19 20:48:23,232:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,232:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/optionfile.py', reloading
+2025-05-19 20:48:23,232:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/optionfile.py', is_directory=False>
+2025-05-19 20:48:23,232:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/optionfile.py', reloading
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/protocol.py", inode=91026734, flags=11100, id=823003451): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/times.py", inode=91026735, flags=11100, id=823003457): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants", inode=91026736, flags=20100, id=823003460): is_created, is_directory
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CLIENT.py", inode=91026737, flags=11100, id=823003466): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/COMMAND.py", inode=91026738, flags=11100, id=823003472): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CR.py", inode=91026739, flags=11100, id=823003478): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/ER.py", inode=91026740, flags=11100, id=823003484): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FIELD_TYPE.py", inode=91026741, flags=11100, id=823003490): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FLAG.py", inode=91026742, flags=11100, id=823003496): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/SERVER_STATUS.py", inode=91026743, flags=11100, id=823003502): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__init__.py", inode=91026744, flags=10100, id=823003505): is_created, is_file
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info", inode=91026745, flags=20100, id=823003508): is_created, is_directory
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/LICENSE", inode=91026746, flags=11100, id=823003514): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/METADATA", inode=91026747, flags=11100, id=823003520): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/WHEEL", inode=91026748, flags=11100, id=823003526): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/top_level.txt", inode=91026749, flags=11100, id=823003532): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD", inode=91026750, flags=11100, id=823003538): is_created, is_file, is_modified
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__", inode=91026751, flags=20100, id=823003541): is_created, is_directory
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/__init__.cpython-311.pyc.4411239296", inode=91026752, flags=11900, id=823003550): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/__init__.cpython-311.pyc", inode=91026752, flags=10800, id=823003551): is_file, is_renamed
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/_auth.cpython-311.pyc.4411239728", inode=91026753, flags=11900, id=823003560): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/_auth.cpython-311.pyc", inode=91026753, flags=10800, id=823003561): is_file, is_renamed
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/charset.cpython-311.pyc.4411240304", inode=91026754, flags=11900, id=823003570): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,240:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/charset.cpython-311.pyc", inode=91026754, flags=10800, id=823003571): is_file, is_renamed
+2025-05-19 20:48:23,240:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/protocol.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/protocol.py', reloading
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/protocol.py', is_directory=False>
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/protocol.py', reloading
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/times.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/times.py', reloading
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/times.py', is_directory=False>
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/times.py', reloading
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CLIENT.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CLIENT.py', reloading
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CLIENT.py', is_directory=False>
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CLIENT.py', reloading
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/COMMAND.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/COMMAND.py', is_directory=False>
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/COMMAND.py', reloading
+2025-05-19 20:48:23,241:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/COMMAND.py', reloading
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CR.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CR.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/ER.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/ER.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FIELD_TYPE.py', is_directory=False>
+2025-05-19 20:48:23,241:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FIELD_TYPE.py', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FLAG.py', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FLAG.py', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/SERVER_STATUS.py', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/SERVER_STATUS.py', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__init__.py', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/LICENSE', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/LICENSE', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/METADATA', is_directory=False>
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/METADATA', is_directory=False>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CR.py', reloading
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/CR.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/WHEEL', is_directory=False>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/ER.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/ER.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/WHEEL', is_directory=False>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FIELD_TYPE.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/top_level.txt', is_directory=False>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FIELD_TYPE.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FLAG.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/top_level.txt', is_directory=False>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/FLAG.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/SERVER_STATUS.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/SERVER_STATUS.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:23,242:INFO: * Detected change in '/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__init__.py', reloading
+2025-05-19 20:48:23,242:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/__init__.cpython-311.pyc.4411239296', is_directory=False>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/__init__.cpython-311.pyc.4411239296', is_directory=False>
+2025-05-19 20:48:23,243:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/__init__.cpython-311.pyc", inode=91026752, flags=10800, id=823003551)
+2025-05-19 20:48:23,243:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/__init__.cpython-311.pyc.4411239296', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/__init__.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/_auth.cpython-311.pyc.4411239728', is_directory=False>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/_auth.cpython-311.pyc.4411239728', is_directory=False>
+2025-05-19 20:48:23,243:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/_auth.cpython-311.pyc", inode=91026753, flags=10800, id=823003561)
+2025-05-19 20:48:23,243:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/_auth.cpython-311.pyc.4411239728', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/_auth.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,243:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/charset.cpython-311.pyc.4411240304', is_directory=False>
+2025-05-19 20:48:23,243:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,244:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/charset.cpython-311.pyc.4411240304', is_directory=False>
+2025-05-19 20:48:23,244:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/charset.cpython-311.pyc", inode=91026754, flags=10800, id=823003571)
+2025-05-19 20:48:23,244:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/charset.cpython-311.pyc.4411240304', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/charset.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,244:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,244:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/connections.cpython-311.pyc.4411242608", inode=91026755, flags=11900, id=823003580): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/connections.cpython-311.pyc", inode=91026755, flags=10800, id=823003581): is_file, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__", inode=91026756, flags=20100, id=823003584): is_created, is_directory
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-311.pyc.4413280528", inode=91026757, flags=11900, id=823003593): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-311.pyc", inode=91026757, flags=10800, id=823003594): is_file, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-311.pyc.4413281808", inode=91026758, flags=11900, id=823003603): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-311.pyc", inode=91026758, flags=10800, id=823003604): is_file, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CR.cpython-311.pyc.4411242896", inode=91026759, flags=11900, id=823003613): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CR.cpython-311.pyc", inode=91026759, flags=10800, id=823003614): is_file, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/ER.cpython-311.pyc.4414748496", inode=91026760, flags=11900, id=823003623): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,251:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/ER.cpython-311.pyc", inode=91026760, flags=10800, id=823003624): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-311.pyc.4413281808", inode=91026761, flags=11900, id=823003633): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-311.pyc", inode=91026761, flags=10800, id=823003634): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FLAG.cpython-311.pyc.4414748496", inode=91026762, flags=11900, id=823003643): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FLAG.cpython-311.pyc", inode=91026762, flags=10800, id=823003644): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-311.pyc.4413281808", inode=91026763, flags=11900, id=823003653): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-311.pyc", inode=91026763, flags=10800, id=823003654): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/__init__.cpython-311.pyc.4413282128", inode=91026764, flags=11900, id=823003663): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/__init__.cpython-311.pyc", inode=91026764, flags=10800, id=823003664): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/converters.cpython-311.pyc.4414744464", inode=91026765, flags=11900, id=823003673): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/converters.cpython-311.pyc", inode=91026765, flags=10800, id=823003674): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/cursors.cpython-311.pyc.4414742880", inode=91026766, flags=11900, id=823003683): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/cursors.cpython-311.pyc", inode=91026766, flags=10800, id=823003684): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/err.cpython-311.pyc.4414745904", inode=91026767, flags=11900, id=823003693): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/err.cpython-311.pyc", inode=91026767, flags=10800, id=823003694): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/optionfile.cpython-311.pyc.4414750512", inode=91026768, flags=11900, id=823003703): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/optionfile.cpython-311.pyc", inode=91026768, flags=10800, id=823003704): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/protocol.cpython-311.pyc.4414745184", inode=91026769, flags=11900, id=823003713): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/protocol.cpython-311.pyc", inode=91026769, flags=10800, id=823003714): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/times.cpython-311.pyc.4414744032", inode=91026770, flags=11900, id=823003723): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/times.cpython-311.pyc", inode=91026770, flags=10800, id=823003724): is_file, is_renamed
+2025-05-19 20:48:23,252:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/INSTALLERm84n3wud.tmp", inode=91026771, flags=15900, id=823003736): is_coalesced, is_created, is_file, is_modified, is_owner_change, is_renamed
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/connections.cpython-311.pyc.4411242608', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/connections.cpython-311.pyc.4411242608', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/connections.cpython-311.pyc", inode=91026755, flags=10800, id=823003581)
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/connections.cpython-311.pyc.4411242608', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/connections.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-311.pyc.4413280528', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-311.pyc.4413280528', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-311.pyc", inode=91026757, flags=10800, id=823003594)
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-311.pyc.4413280528', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-311.pyc.4413281808', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-311.pyc.4413281808', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-311.pyc", inode=91026758, flags=10800, id=823003604)
+2025-05-19 20:48:23,252:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-311.pyc.4413281808', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,252:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CR.cpython-311.pyc.4411242896', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CR.cpython-311.pyc.4411242896', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CR.cpython-311.pyc", inode=91026759, flags=10800, id=823003614)
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CR.cpython-311.pyc.4411242896', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/CR.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/ER.cpython-311.pyc.4414748496', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/ER.cpython-311.pyc.4414748496', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/ER.cpython-311.pyc", inode=91026760, flags=10800, id=823003624)
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/ER.cpython-311.pyc.4414748496', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/ER.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-311.pyc.4413281808', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-311.pyc.4413281808', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-311.pyc", inode=91026761, flags=10800, id=823003634)
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-311.pyc.4413281808', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FLAG.cpython-311.pyc.4414748496', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FLAG.cpython-311.pyc.4414748496', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FLAG.cpython-311.pyc", inode=91026762, flags=10800, id=823003644)
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FLAG.cpython-311.pyc.4414748496', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/FLAG.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-311.pyc.4413281808', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-311.pyc.4413281808', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-311.pyc", inode=91026763, flags=10800, id=823003654)
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-311.pyc.4413281808', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,253:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/__init__.cpython-311.pyc.4413282128', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/__init__.cpython-311.pyc.4413282128', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/__init__.cpython-311.pyc", inode=91026764, flags=10800, id=823003664)
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/__init__.cpython-311.pyc.4413282128', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__/__init__.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/constants/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/converters.cpython-311.pyc.4414744464', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/converters.cpython-311.pyc.4414744464', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/converters.cpython-311.pyc", inode=91026765, flags=10800, id=823003674)
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/converters.cpython-311.pyc.4414744464', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/converters.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/cursors.cpython-311.pyc.4414742880', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/cursors.cpython-311.pyc.4414742880', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/cursors.cpython-311.pyc", inode=91026766, flags=10800, id=823003684)
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/cursors.cpython-311.pyc.4414742880', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/cursors.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/err.cpython-311.pyc.4414745904', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/err.cpython-311.pyc.4414745904', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/err.cpython-311.pyc", inode=91026767, flags=10800, id=823003694)
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/err.cpython-311.pyc.4414745904', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/err.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/optionfile.cpython-311.pyc.4414750512', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/optionfile.cpython-311.pyc.4414750512', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/optionfile.cpython-311.pyc", inode=91026768, flags=10800, id=823003704)
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/optionfile.cpython-311.pyc.4414750512', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/optionfile.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/protocol.cpython-311.pyc.4414745184', is_directory=False>
+2025-05-19 20:48:23,254:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,254:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/protocol.cpython-311.pyc.4414745184', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/protocol.cpython-311.pyc", inode=91026769, flags=10800, id=823003714)
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/protocol.cpython-311.pyc.4414745184', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/protocol.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/times.cpython-311.pyc.4414744032', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/times.cpython-311.pyc.4414744032', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/times.cpython-311.pyc", inode=91026770, flags=10800, id=823003724)
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/times.cpython-311.pyc.4414744032', dest_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__/times.cpython-311.pyc', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/pymysql/__pycache__', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/INSTALLERm84n3wud.tmp', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/INSTALLERm84n3wud.tmp', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileDeletedEvent: event_type=deleted, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/INSTALLERm84n3wud.tmp', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/INSTALLER", inode=91026771, flags=10800, id=823003737): is_file, is_renamed
+2025-05-19 20:48:23,255:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/REQUESTED", inode=91026772, flags=10100, id=823003740): is_created, is_file
+2025-05-19 20:48:23,255:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORDw4inbwi7.tmp", inode=91026773, flags=15900, id=823003752): is_coalesced, is_created, is_file, is_modified, is_owner_change, is_renamed
+2025-05-19 20:48:23,255:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD", inode=91026773, flags=10800, id=823003753): is_file, is_renamed
+2025-05-19 20:48:23,255:DEBUG:NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD", inode=91026750, flags=11900, id=823003754): is_coalesced, is_created, is_file, is_modified, is_renamed
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/INSTALLER', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/REQUESTED', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORDw4inbwi7.tmp', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORDw4inbwi7.tmp', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD", inode=91026773, flags=10800, id=823003753)
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileMovedEvent: src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORDw4inbwi7.tmp', dest_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <FileDeletedEvent: event_type=deleted, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info/RECORD', is_directory=False>
+2025-05-19 20:48:23,255:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.11/site-packages/PyMySQL-1.1.0.dist-info', is_directory=True>
+2025-05-19 20:48:24,474:WARNING: * Debugger is active!
+2025-05-19 20:48:24,479:INFO: * Debugger PIN: 923-241-735
+2025-05-19 21:03:44,614:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/FETCH_HEAD", inode=90117289, flags=11400, id=823056452): is_file, is_inode_meta_mod, is_modified
+2025-05-19 21:03:44,616:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/FETCH_HEAD', is_directory=False>
+2025-05-19 21:03:45,140:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/FETCH_HEAD", inode=90117289, flags=11400, id=823056749): is_file, is_inode_meta_mod, is_modified
+2025-05-19 21:03:45,140:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/objects/maintenance.lock", inode=91030103, flags=18300, id=823056758): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2025-05-19 21:03:45,141:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/FETCH_HEAD', is_directory=False>
+2025-05-19 21:03:45,141:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/objects/maintenance.lock', is_directory=False>
+2025-05-19 21:03:45,141:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/objects', is_directory=True>
+2025-05-19 21:03:45,141:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/objects/maintenance.lock', is_directory=False>
+2025-05-19 21:03:45,141:DEBUG:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/objects/maintenance.lock', is_directory=False>
+2025-05-19 21:03:45,142:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/objects', is_directory=True>
+2025-05-19 21:03:45,746:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/logs/refs/remotes/origin/HEAD", inode=90117295, flags=11000, id=823057059): is_file, is_modified
+2025-05-19 21:03:45,746:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD.lock", inode=91030124, flags=19900, id=823057062): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+2025-05-19 21:03:45,746:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD", inode=91030124, flags=10800, id=823057063): is_file, is_renamed
+2025-05-19 21:03:45,746:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD", inode=91023389, flags=10800, id=823057064): is_file, is_renamed
+2025-05-19 21:03:45,746:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/logs/refs/remotes/origin/HEAD', is_directory=False>
+2025-05-19 21:03:45,746:DEBUG:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD.lock', is_directory=False>
+2025-05-19 21:03:45,746:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin', is_directory=True>
+2025-05-19 21:03:45,747:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD.lock', is_directory=False>
+2025-05-19 21:03:45,747:DEBUG:Destination event for rename is NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD", inode=91030124, flags=10800, id=823057063)
+2025-05-19 21:03:45,747:DEBUG:queue_event <FileMovedEvent: src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD.lock', dest_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD', is_directory=False>
+2025-05-19 21:03:45,747:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin', is_directory=True>
+2025-05-19 21:03:45,747:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin', is_directory=True>
+2025-05-19 21:03:45,748:DEBUG:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin/HEAD', is_directory=False>
+2025-05-19 21:03:45,748:DEBUG:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/.git/refs/remotes/origin', is_directory=True>
+2025-05-19 21:17:15,281:DEBUG:NativeEvent(path="/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py", inode=90125628, flags=11400, id=823092739): is_file, is_inode_meta_mod, is_modified
+2025-05-19 21:17:15,281:DEBUG:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py', is_directory=False>
+2025-05-19 21:17:15,282:INFO: * Detected change in '/Users/jeonghunsong/Documents/GitHub/Flask_Project/app.py', reloading

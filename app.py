@@ -123,6 +123,8 @@ def welcome():
     return '환영합니다! 이것은 블루프린트를 사용하지 않는 직접적인 라우트입니다.'
 '''
 
+'''
+플라스크에서의 쿠키 사용법
 from flask import Flask, session, abort
 
 app = Flask(__name__)
@@ -148,3 +150,123 @@ def protected():
         return '이 페이지는 로그인한 사용자만 볼 수 있습니다!'
     else:
         return '로그인된 페이지입니다!'
+
+from flask import Flask, make_response, request, abort
+
+app = Flask(__name__)
+
+@app.route('/set_cookie')
+def set_cookie():
+    resp = make_response('쿠키를 설정합니다.')
+    resp.set_cookie('username', 'John', max_age=60*60*24*7)
+    return resp
+
+@app.route('/get_cookie')
+def get_cookie():
+    username = request.cookies.get('username', '게스트')
+    return f'쿠키로부터 얻은 사용자 이름: {username}'
+
+@app.route('/secret')
+def secret():
+    username = request.cookies.get('username')
+    if not username:
+        # 쿠키가 없다면 접근 금지 메시지 반환
+        abort(403, description='접근 권한이 없습니다. 먼저 쿠키를 설정해주세요.')
+    return f'환영합니다, {username}님! 비밀 페이지에 접속한 것을 환영합니다!'
+
+@app.route('/delete_cookie')
+def delete_cookie():
+    resp = make_response('쿠키를 삭제합니다.')
+    resp.delete_cookie('username')
+    return resp
+'''
+
+'''
+로깅 기본 사용법
+from flask import Flask
+import logging
+
+app = Flask(__name__)
+app.logger.setLevel(logging.DEBUG) # DEBUG 레벨 이상 모든 로그 기록
+logging.basicConfig(filename='application.log',
+                    level=logging.DEBUG,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
+
+@app.route('/')
+def home():
+    app.logger.debug('Debug level log')
+    app.logger.info('Info level log')
+    app.logger.warning('Warning level log')
+    app.logger.error('Error level log')
+    app.logger.critical('Critical level log')
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+'''
+
+'''
+플라스크와 MySQL 연동
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:test@localhost:3306/db_name'
+db = SQLAlchemy(app)
+
+class User(db.Model):
+    __tablename__ = 'users'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80), unique=True, nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+    
+    def __repr__(self):
+        return '<User %r>' % self.username
+
+with app.app_context():
+    db.create_all()
+
+@app.route('/')
+def index():
+    # 데이터 생성
+    new_user = User(username='john', email='john@example.com')
+    db.session.add(new_user)
+    db.session.commit()
+    
+    # 데이터 조회(Read)
+    user = User.query.filter_by(username='john').first()
+    
+    # 데이터 업데이트(Update)
+    user.email = 'john@newexample.com'
+    db.session.commit()
+    
+    # 데이터 삭제(Delete)
+    db.session.delete(user)
+    db.session.commit()
+    
+    return 'CRUD operations completed'
+'''
+
+'''
+Flask-Migrate
+'''
+
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:test@localhost/db_name'
+db = SQLAlchemy(app)
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80), unique=True, nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+    
+    def __repr__(self):
+        return '<User %r>' % self.username
+
+migrate = Migrate(app, db)
