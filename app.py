@@ -251,8 +251,6 @@ def index():
 
 '''
 Flask-Migrate
-'''
-
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
@@ -270,3 +268,90 @@ class User(db.Model):
         return '<User %r>' % self.username
 
 migrate = Migrate(app, db)
+'''
+
+'''
+Flask-Login을 사용한 인증
+'''
+from flask import Flask, request, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager, UserMixin, login_required, \
+    login_user, logout_user, current_user
+
+app = Flask(__name__)
+
+# 데이터베이스 설정
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://funcoding:funcoding@localhost/flaskdb'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# Flask 애플리케이션을 위한 비밀 키 설정
+app.config['SECRET_KEY'] = 'mysecretkey'
+
+db = SQLAlchemy(app) # SQLALchemy 인스턴스 생성
+
+# LoginManager 인스턴스 생성
+login_manager = LoginManager()
+# Flask 애플리케이션과 LoginManager 인스턴스 연결
+login_manager.init_app(app)
+# 로그인 페이지의 뷰 함수 이름을 설정합니다.
+login_manager.login_view = 'login'
+
+class User(UserMixin, db.Model):
+    # 각 컬럼 정의
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(64), unique=True)
+    password = db.Column(db.String(128))
+    
+    def __repr__(self):
+        return f'<User {self.username}>'
+
+with app.app_context():
+    db.create_all()
+
+# 사용자 로드 함수에 데코레이터 적용
+@login_manager.user_loader
+def load_user(user_id):
+    # 주어진 user_id로 사용자 조회 후 반환
+    return User.query.get(int(user_id))
+
+@app.route('/')
+def index():
+    return 'Home Page'
+
+@app.route('/protected')
+@login_required
+def protected():
+    return f'Logged in as {current_user.username}'
+
+@app.route('/login', method=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        user = User.query.filter_by(username=username).first()
+        if user and user.password == password:
+            login_user(user)
+            return redirect(url_for('protected'))
+    
+    # 로그인 폼 HTML 반환
+    return '''
+        <form method="post">
+            Username: <input type="text" name="username"><br>
+            Password: <input type="password" name="password"><br>
+            <input type="submit" value="Login">
+        </form>
+    '''
+    
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('index'))
+
+@app.route('/create_test_user')
+def create_test_user():
+    test_user = User(username='testuser', email='test@example.com',
+                    password='testpassword')
+    db.session.add(test_user)
+    db.session.commit()
+    return 'Test user created'
